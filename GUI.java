@@ -21,9 +21,9 @@ public class GUI extends JFrame {
 
   private JPanel panelBoard;
   private JLabel total_solutions;
-  private int num_reinas = 1; // por defecto
+  private int num_reinas = 1;
   private int solucion_actual = 0;
-  private final static int SIZE = 600;
+  private final static int SIZE = 200;
   private JButton[][] cells;
   LinkedList<LinkedList<Integer>> soluciones;
 
